@@ -6,10 +6,26 @@
     <meta name="keywords" content="my site, html, Useful information for start in IT, QA, BA, PM, courses">
     <meta name="keywords" content="This site provides people with PDF files with basics of QA, BA, Python">
     <link rel="shortcut icon" href="2.jpg">
+
     <link href="myStyles.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
+    <div class="preloader">
+      <div class="preloader__row">
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+      </div>
+    </div>
 
+    <script>
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 1500);
+  }
+</script>
     <h1>Here I collected books and links, which I can reccomend to study QA, BA, Python</h1>
     <hr>
 
@@ -39,4 +55,5 @@
        <a href="mailto:vlad1tarasiiiov@gmail.com" target="blank">vlad1tarasiiiov@gmail.com</a>
     </div>
 
+  </body>
 </html>
