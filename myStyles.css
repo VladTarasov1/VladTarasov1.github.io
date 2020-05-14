@@ -21,7 +21,7 @@
   margin-top: -35px;
   margin-left: -35px;
   text-align: center;
-  animation: preloader-rotate 2s infinite linear;
+  animation: preloader-rotate 2.5s infinite linear;
 }
 
 .preloader__item {
@@ -32,13 +32,13 @@
   border-radius: 100%;
   width: 35px;
   height: 35px;
-  animation: preloader-bounce 2s infinite ease-in-out;
+  animation: preloader-bounce 2.5s infinite ease-in-out;
 }
 
 .preloader__item:last-child {
   top: auto;
   bottom: 0;
-  animation-delay: -1s;
+  animation-delay: -2s;
 }
 
 @keyframes preloader-rotate {
@@ -60,7 +60,7 @@
 }
 
 .loaded_hiding .preloader {
-  transition: 0.3s opacity;
+  transition: 0.8s opacity;
   opacity: 0;
 }
 
@@ -72,7 +72,7 @@ a {
   font-size: 20px;
   text-decoration: none;
   transform: scale(1);
-  transition: 1.5s all;
+  transition: 2.5s all;
 }
 
 #python1 {
@@ -201,7 +201,7 @@ hr {
 }
 
 .loaded_hiding .preloader {
-  transition: 0.3s opacity;
+  transition: 1.8s opacity;
   opacity: 0;
 }
 
