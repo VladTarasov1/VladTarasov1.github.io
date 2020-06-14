@@ -69,7 +69,7 @@
 }
 a {
   color: #a31010;
-  font-size: 125%;
+  font-size: 115%;
   text-decoration: none;
   transform: scale(1);
   transition: 2.5s all;
@@ -122,10 +122,11 @@ h2 {
 }
 
 .email {
-  color: #19918b
+  color: #19918b;
+  font-size: 115%;
 }
 a:hover{
-  font-size: 156.25%;
+  font-size: 135%;
   transform: rotate(20deg), scale(1);
 }
 body{
